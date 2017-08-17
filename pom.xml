@@ -26,6 +26,30 @@
 	    <artifactId>webjars-locator</artifactId>
 	    <version>0.32-1</version>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/junit/junit -->
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-test</artifactId>
+	    <version>4.3.10.RELEASE</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+	<dependency>
+	     <groupId>javax.servlet</groupId>
+	     <artifactId>javax.servlet-api</artifactId>
+	     <version>3.0.1</version>
+	</dependency>
+
+	
 	
   </dependencies>
   <build>
